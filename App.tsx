@@ -1,14 +1,13 @@
-
 import React, { useState, useEffect, useCallback } from 'react';
-import { EnergyMode, Task, ThemeConfig, AppTab, Habit } from './types';
-import { geminiService } from './services/geminiService';
-import Dashboard from './components/Dashboard';
-import ThoughtDiary from './components/ThoughtDiary';
-import EmotionalRegulator from './components/EmotionalRegulator';
-import PremiumArea from './components/PremiumArea';
-import Navigation from './components/Navigation';
-import Timer from './components/Timer';
-import Games from './components/Games';
+import { EnergyMode, Task, ThemeConfig, AppTab, Habit } from './types.ts';
+import { geminiService } from './services/geminiService.ts';
+import Dashboard from './components/Dashboard.tsx';
+import ThoughtDiary from './components/ThoughtDiary.tsx';
+import EmotionalRegulator from './components/EmotionalRegulator.tsx';
+import PremiumArea from './components/PremiumArea.tsx';
+import Navigation from './components/Navigation.tsx';
+import Timer from './components/Timer.tsx';
+import Games from './components/Games.tsx';
 
 const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState<AppTab>('home');
