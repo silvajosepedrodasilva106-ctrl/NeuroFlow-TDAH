@@ -1,0 +1,7 @@
+{
+  "name": "NeuroFlow TDAH",
+  "description": "Um assistente cognitivo empático e inteligente projetado especificamente para ajudar pessoas com TDAH a organizar pensamentos, reduzir a procrastinação e gerenciar energia diária.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
